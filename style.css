@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+body {
+    font-family: 'Do Hyeon', sans-serif;
+    background: url("https://assets.nrdc.org/sites/default/files/styles/header_background/public/personalaction-kidsclimatechange-1200x630.jpg?itok=JBsv97mu");
+    background-size: 1400px;
+}
+section>div {
+    display: inline-block;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+}
+img {
+    height: 70%;
+}
+#heading {
+    color: red;
+    text-align: center;
+}
+.green-box {
+    background-color: lightgreen;
+    justify-content: space-around;
+}
+section h2 {
+    color: red;
+}
+h1+div {
+    background-color: lightgreen;
+}
